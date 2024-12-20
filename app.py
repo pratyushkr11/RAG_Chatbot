@@ -27,7 +27,7 @@ def main():
     if "gemini_model" not in st.session_state:
         st.session_state["gemini_model"] = "gemini-2.0-flash-exp"
 
-    st.title("Chatbot")
+    st.title("Product Chatbot")
 
     if "messages" not in st.session_state:
         st.session_state.messages = []
