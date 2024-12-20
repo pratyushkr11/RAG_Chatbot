@@ -1,3 +1,5 @@
+__import__('pysqlite3')
+import sys
 import streamlit as st
 from dotenv import load_dotenv
 from chatbot import run_main_conversational_rag_chain, create_vectorstore_retriever
@@ -5,6 +7,7 @@ from langchain_google_genai.embeddings import GoogleGenerativeAIEmbeddings
 load_dotenv()
 
 embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 def response_generator(query):
 
