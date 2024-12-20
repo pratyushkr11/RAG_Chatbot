@@ -110,5 +110,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For any questions or feedback, feel free to reach out:
-- **Email**: pratyushkr11@example.com
+- **Email**: krpratyush4813@gmail.com
 - **GitHub**: [pratyushkr11](https://github.com/pratyushkr11)
